@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+            <h2 class="main-heading">
+                Currency Converter
+            </h2>
+        </div>
+        <div class="main-body">
+            <form class="input-form">
+                <div class="amount-input">
+                    <div class="amount-text">
+                        <p>Enter Amount</p>
+                    </div>
+                    <div class="amount-field">
+                        <input type="text" class="amount-field" value="100">
+                    </div>
+                </div>    
+                <div class="dropdown-selector">
+                    <div class="from-dropdown-selector">
+                        <img src="https://flagsapi.com/US/shiny/32.png">
+                        <label for="currency" class="from">From</label>
+                        <select name="from">
+                            
+                        </select>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    </div>
+                    <div class="to-dropdown-selector">
+                        <img src="https://flagsapi.com/IN/shiny/32.png">
+                        <label for="currency" class="to">To</label>
+                        <select name="to">
+                            
+                        </select>
+                    </div>  
+                </div>
+                <div class="exchange-button">
+                    <button id="exchange-button">Convert Currency</button>
+                </div>                
+            </form>
+            <div class="output-display">
+                <p id="output-display">1 USD = 100 INR</p>
+            </div>           
+        </div>          
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

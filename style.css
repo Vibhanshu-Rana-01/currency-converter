@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: coral;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    min-width: 20vw;
+    min-height: 50vh;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 25px;  
+    justify-content: center;
+}
+.main-heading{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+form{
+    font-size: 1.1rem;
+}
+.input-form{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.amount-input{
+    margin: 10px;
+}
+.amount-field{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    min-width: 90%;
+}
+input{
+    font-size: 1rem;
+    padding: 3px;
+    border-radius: 5px;
+}
+.dropdown-selector{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.to-dropdown-selector, .from-dropdown-selector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+label{
+    margin: 5px;
+}
+button{
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    padding: 3px;
+    border-radius: 5px;
+    min-width: 90%;
+    cursor: pointer;
+    background-color: rgb(255, 116, 65);
+}
+.output-display{
+    visibility: hidden;
+    margin-top: 20px;
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    justify-content: center;
+}
+select{
+    font-size: 1rem;
+    border: 1.5px solid black(243, 17, 17);
+    cursor: pointer;
+}
+
