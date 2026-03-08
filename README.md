@@ -22,4 +22,4 @@ A responsive, real-time currency converter built with **Vanilla JavaScript**, **
 3. Click the **Convert Currency** button to see the result.
 
 ## 📸 Preview
-![App Screenshot](https://via.placeholder.com/800x400?text=Currency+Converter+Preview)
+![Currency Converter Screenshot](./screenshot.png)
