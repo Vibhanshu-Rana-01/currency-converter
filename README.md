@@ -9,7 +9,7 @@ A responsive, real-time currency converter built with **Vanilla JavaScript**, **
 - **Fully Responsive:** Styled with CSS to work across different screen sizes.
 
 ## 🚀 Demo
-[Add your GitHub Pages link here once deployed]
+[View Live Project](https://Vibhanshu-Rana-01.github.io/currency-converter/)
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
